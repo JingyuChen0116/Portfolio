@@ -23,3 +23,41 @@ skills.forEach( (skill) => {
   
   grid_container.appendChild(grid_item)
 })
+
+/* Projects */
+const card_container = document.querySelector('.card-container')
+
+projects.forEach( (project) => {
+  const card_item = document.createElement('div')
+  card_item.className = 'card'
+
+  card_item.innerHTML = `
+    <img />
+    <div class="project-info">
+      <div class="project-name"></div>
+      <div class="project-context"></div>
+      <div class="tool-set"></div>
+    </div>
+
+  `
+  const card_img = card_item.querySelector('img')
+  card_img.src = project.src
+  card_img.alt = project.name
+
+  const project_name = card_item.querySelector('.project-name')
+  project_name.textContent = project.name
+
+  const project_context = card_item.querySelector('.project-context')
+  project_context.textContent = project.context
+
+  const project_tool_set = card_item.querySelector('.tool-set')
+  project.tools.forEach( (tool) => {
+    const project_tool = document.createElement('span')
+    project_tool.className = 'tool'
+    project_tool.textContent = tool
+    project_tool_set.appendChild(project_tool)
+  })
+
+  card_container.appendChild(card_item)
+
+})
