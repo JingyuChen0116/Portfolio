@@ -61,18 +61,21 @@
       "name": "Top Social",
       "src": "projects/top_social.png",
       "context": "A front-end social web page that prioritizes the creation of an intuitive and visually appealing user interface.",
+      "link": "https://top-social.netlify.app/",
       "tools": ["HTML", "CSS", "JavaScript"]
     }, 
     {
       "name": "World Clock",
       "src": "projects/world_clock.png",
-      "context": "A dynamic world clock application where the user interface seamlessly adjusts based on day and night, experiencing global time at your fingertips.",
+      "context": "A dynamic world clock application where the user interface seamlessly adjusts based on day and night.",
+      "link": "https://world-clock-react.netlify.app/",
       "tools": ["React", "CSS", "JavaScript"]
     },
     {
       "name": "Pool Table Game",
       "src": "projects/pool_table_game.png",
       "context": "An exciting virtual pool table game project, offering an authentic and immerse billiards experience right on your screen.",
+      "link": "https://github.com/JingyuChen0116/Pool_Table_Game",
       "tools": ["Java", "OOP", "JavaFX"]
     }
   ]

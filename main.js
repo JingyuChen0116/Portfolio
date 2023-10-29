@@ -28,6 +28,11 @@ skills.forEach( (skill) => {
 const card_container = document.querySelector('.card-container')
 
 projects.forEach( (project) => {
+  const card_url = document.createElement('a')
+  card_url.className = "project-link"
+  card_url.href = project.link
+  card_url.target = "_blank"
+
   const card_item = document.createElement('div')
   card_item.className = 'card'
 
@@ -58,6 +63,7 @@ projects.forEach( (project) => {
     project_tool_set.appendChild(project_tool)
   })
 
-  card_container.appendChild(card_item)
+  card_url.appendChild(card_item)
+  card_container.appendChild(card_url)
 
 })

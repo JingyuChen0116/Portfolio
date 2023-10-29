@@ -36,13 +36,14 @@
   align-items: center;
 }
 
-body {
-  min-width: 800px;
-}
 
 html {
   height: 100vh;
   width: 100vw;
+}
+
+body {
+  min-width: 800px;
 }
 
 .page {
@@ -265,15 +266,20 @@ header {
   background: linear-gradient(to bottom, #020901, #318b4b 100%);
 }
 
+
 .card-container {
   display: flex;
+  // align-items: center;
+  // justify-content: center;
+  width: 70%;
+  overflow-x: scroll;
   gap: 5rem;
-  margin-top: 3rem;
-  overflow-x: auto;
+  margin: 3rem 0;
 }
 
 .card {
-  width: 400px;
+  min-width: 33rem;
+  aspect-ratio: 2/2.5;
   background: #5e8e5d99;
   border-radius: 30px; 
   border: 2px solid #D0D0D0;
@@ -281,14 +287,20 @@ header {
   gap: 25px;
   flex-direction: column;
   padding: 12px 8px;
+  transition: all 0.3s cubic-bezier(1,-0.1, 0.02, 1.08);
 
   img {
     width: 100%;
-    height: 263px;
+    height: 48%;
     border-radius: 20px;
-    object-fit: cover;
     margin-bottom: 1.2rem;
     border: 2px solid #D0D0D0;
+  }
+}
+
+.project-link:hover {
+  .card {
+    background: #5e8e5d;
   }
 }
 
@@ -327,6 +339,22 @@ header {
     }
   }
 }
+
+.scroll-hint {
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 5rem;
+    filter: invert(1);
+  }
+
+  span {
+    font-size: 1.5rem;
+    color: #ffffffc4;
+  }
+}
+
 
 #contact-page {
   align-items: center;
@@ -376,4 +404,3 @@ header {
     font-size: 9.5px;
   }
 }
-
