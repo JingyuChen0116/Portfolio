@@ -1,0 +1,62 @@
+{
+  "skills": [
+    {
+      "name": "Java",
+      "src": "icons/java.svg",
+      "description": "Extensive experience in Java, with a focus on building robust, object-oriented applications."
+    },
+    {
+      "name": "Python",
+      "src": "icons/python.svg",
+      "description": "Expertise in building applications, automating tasks and performing data analysis using Python."
+    },
+    {
+      "name": "JavaScript",
+      "src": "icons/javascript.svg",
+      "description": "Skilled in creating interactive and dynamic web experiences, including frontend and backend development."
+    },
+    {
+      "name": "HTML",
+      "src": "icons/html.svg",
+      "description": "Experienced in using HTML to structure and create content on the internet through tags and elements."
+    },
+    {
+      "name": "CSS",
+      "src": "icons/css.svg",
+      "description": "Proficient in designing and styling web content, enhancing user experiences with visually appealing layouts, colors, and typography."
+    },
+    {
+      "name": "SASS",
+      "src": "icons/sass.svg",
+      "description": "Proficiency in Sass enabled me to efficiently optimize and sustain scalable CSS in web projects."
+    },
+    {
+      "name": "React",
+      "src": "icons/react.svg",
+      "description": "Experienced in developing interactive and performant web applications, harnessing the power of this popular JavaScript library."
+    },
+    {
+      "name": "Node.js",
+      "src": "icons/node-js.svg",
+      "description": "Used Node.js to build server-side and networking applications, "
+    },
+    {
+      "name": "SQL",
+      "src": "icons/sql.svg",
+      "description": "Proficient in designing and optimizing complex database queries and structures for data-driven applications."
+    },
+    {
+      "name": "Git",
+      "src": "icons/git.svg",
+      "description": "Expertise in maintaining version control for projects, ensuring collaboration and codebase integrity."
+    },
+    {
+      "name": "Figma",
+      "src": "icons/figma.svg",
+      "description": "Proficient in using Figma to design user interfaces and collaborate seamlessly with teams on UX/UI projects."
+    }
+  ],
+  "projects": [
+    
+  ]
+}
