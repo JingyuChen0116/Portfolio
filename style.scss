@@ -42,14 +42,11 @@ html {
   width: 100vw;
 }
 
-body {
-  min-width: 800px;
-}
-
 .page {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 100%;
 }
 
 .cover-page-background {
@@ -59,6 +56,7 @@ body {
   inset: 0;
   object-fit: cover;
   z-index: -1;
+  overflow-x: hidden;
 }
 
 header {
@@ -204,8 +202,8 @@ header {
 
   img {
     display: inline;
-    width: 300px;
-    height: 300px;
+    width: 30rem;
+    height: 30rem;
     border-radius: 50%;
     box-shadow: 0px 0px 5px;
   }
@@ -295,6 +293,7 @@ header {
     border-radius: 20px;
     margin-bottom: 1.2rem;
     border: 2px solid #D0D0D0;
+    transition: all 0.5s ease-in-out;
   }
 }
 
@@ -403,4 +402,17 @@ header {
   :root {
     font-size: 9.5px;
   }
+}
+
+@media (max-width: 800px) {
+  
+  .about-me-content {
+    width: 90%;
+
+    img {
+      width: 20rem;
+      height: 20rem;
+    }
+  }
+  
 }
