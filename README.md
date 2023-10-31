@@ -35,4 +35,4 @@ The foundation of my portfolio rests upon a versatile and dynamic technical stac
   # or
   yarn dev
   ```
-- Open the link that appears in the terminal and you will be directed to the website.
+- Open the link that appears in the terminal and you will be redirected to the website.
