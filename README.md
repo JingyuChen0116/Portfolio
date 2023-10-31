@@ -24,15 +24,15 @@ The foundation of my portfolio rests upon a versatile and dynamic technical stac
   npm -version
   ```
 - Install required dependencies using the following command:
-```
-npm install
-# or
-yarn
-```
+  ```
+  npm install
+  # or
+  yarn
+  ```
 - Start the server locally by running the following command:
-```
-npm run dev
-# or
-yarn dev
-```
+  ```
+  npm run dev
+  # or
+  yarn dev
+  ```
 - Open the link that appears in the terminal and you will be directed to the website.
