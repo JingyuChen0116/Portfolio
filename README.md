@@ -23,6 +23,12 @@ The foundation of my portfolio rests upon a versatile and dynamic technical stac
   # or
   npm -version
   ```
+- Install required dependencies using the following command:
+```
+npm install
+# or
+yarn
+```
 - Start the server locally by running the following command:
 ```
 npm run dev
