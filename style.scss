@@ -414,5 +414,15 @@ header {
       height: 20rem;
     }
   }
+
+  :root {
+    font-size: 8.5px;
+  }
   
+}
+
+@media (max-width: 500px) {
+  :root {
+    font-size: 7.5px;
+  }
 }
